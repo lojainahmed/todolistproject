@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Project</string>
+    <string-array name="arr">
+        <item>Add Task</item>
+        <item>Display tasks</item>
+        <item>Update or delete</item>
+    </string-array>
+    <string-array name="spinner">
+        <item>Update</item>
+        <item>Delete</item>
+    </string-array>
+
+</resources>

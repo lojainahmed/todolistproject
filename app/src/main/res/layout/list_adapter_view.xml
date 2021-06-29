@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:orientation="horizontal" android:weightSum="100">
+
+    <TextView
+        android:id="@+id/texttitle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="25"
+        android:textSize="20sp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_weight="25"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/textdesc"
+        ></TextView>
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_weight="25"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/textdate"
+        ></TextView>
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_weight="25"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/textstatus"
+        ></TextView>
+
+</LinearLayout>
